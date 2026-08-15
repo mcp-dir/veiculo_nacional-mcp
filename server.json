@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/veiculo_nacional-mcp",
+  "title": "Consulta Veicular Nacional",
+  "description": "Registration data for a vehicle from its plate in a national database: make, model, year, color, and",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/veiculo_nacional-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_veiculo_nacional"
+    }
+  ]
+}
